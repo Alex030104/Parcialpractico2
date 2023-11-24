@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <p class="h3 p-3">{{ dinoDetail.name }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+        <img
+          class="img-fluid"
+          src="{{ dinoDetail.image }}"
+          alt="{{ dinoDetail.name }}"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <dl>
+        <dt>Description</dt>
+        <dd>{{ dinoDetail.description }}</dd>
+        <hr />
+        <dt>discoveryCountry </dt>
+        <dd>{{ dinoDetail.discoveryCountry }}</dd>
+        <hr />
+        <dt class="bold">era</dt>
+        <dd class="caption">{{ dinoDetail.era }}</dd>
+        <hr />
+        <dt class="bold">feeding</dt>
+        <dd>{{ dinoDetail.feeding }}</dd>
+        <dt class="bold">scientificName</dt>
+        <dd class="caption">{{ dinoDetail.scientificName }}</dd>
+        <hr />
+      </dl>
+    </div>
+  </div>
+ </div>
